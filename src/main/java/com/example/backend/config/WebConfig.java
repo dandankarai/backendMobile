@@ -1,13 +1,5 @@
 package com.example.backend.config;
 
-/*
-Este código configura o Cross-Origin Resource Sharing (CORS) em uma aplicação Spring Boot.
-O CORS é um mecanismo de segurança do navegador que bloqueia requisições web
-feitas a partir de um domínio diferente do domínio da página atual. Essa configuração
-permite que um frontend, em execução em `http://localhost:5173`, acesse recursos
-da API backend neste servidor.
-*/
-
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
